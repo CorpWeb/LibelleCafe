@@ -1,0 +1,171 @@
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 1em;
+    }
+
+
+
+#jssor_1 {
+        -webkit-box-shadow: 0 0 8px 20px #000000;
+        box-shadow: 0 0 20px 1px #000000;
+
+}
+
+
+body {
+    background:url('img/dark_wood.png') 0 0 repeat;
+    padding:5px 0 0;
+    margin:auto;
+    text-align:center;
+    font-family: 'Old Standard TT', serif;
+    overflow-x: hidden;
+}
+
+/* Here begins the icons media*/
+
+.section {
+    margin:50px 0px 0px 900px;
+}
+
+.section img {
+            border:2px solid rgba(158, 158, 158, 0.4);
+            border-radius: 50px;
+            padding: 25px;
+        }
+
+        .fb {
+            margin-right:-20px;
+            transition: 1s;
+            position: relative;
+            bottom:0px;
+        }
+       
+        .insta {
+            margin-right: -20px;
+            transition: 1s;
+            position: relative;
+            bottom:0px;
+        }
+
+        
+        /* Hover Effects */
+        
+        .fb:hover {
+            border-color:rgba(220, 6, 6, 0.1);
+            transition: 1s;
+            background-color:rgba(116,107,107,0.43);
+            box-shadow: 5px 5px 5px rgba(220, 6, 6, 0.1);
+            position: relative;
+            bottom: 20px;
+        }
+
+        .insta:hover {
+            border-color:rgb(192,192,192);
+            transition: 0.75s;
+            background-color:rgba(220, 6, 6, 0.1);
+            box-shadow: 5px 5px 5px rgba(139, 69, 19, 0.74);
+            position: relative;
+            bottom: 20px;
+        }
+       
+       
+        
+        /* Responsive */
+        
+        /* When screen resolution less than 962px */
+        
+        @media (max-width:962px) {
+            .section {
+                margin:-150px 0px 0px 600px;
+				margin-top: -275px;
+            }
+        }
+        
+        /* When screen resolution less than 662px */
+        
+        @media (max-width:662px) {
+            .section {
+                margin:-150px 0px 0px 400px;
+				margin-top: -275px;
+            }
+            .section img {
+            border:2px solid rgba(158, 158, 158, 0.4);
+            border-radius: 50px;
+            padding: 15px;
+                width: 32px;
+                height: 32px;
+        }
+        }
+        
+        /* When screen resolution less than 362px */
+        
+            @media (max-width:362px) {
+                .section {
+				margin:-150px 0px 0px 200px;
+				margin-top: -325px;
+            }
+                .section img {
+            border:2px solid rgba(158, 158, 158, 0.4);
+            border-radius: 50px;
+            padding: 15px;
+                width:16px;
+                height: 16px;
+        }
+        }
+/* Here ends media icons */
+
+
+/* Starts the Slide */
+
+#slideshow{
+	margin:250px 0px 0px 0px;
+	
+}
+
+.jssora05l,.jssora05r{
+    display:iblock;
+    position:absolute;
+    width:40px;
+    height:40px;
+    cursor:pointer;
+    background:url('img/a17.png') no-repeat;
+    overflow:hidden;
+	}
+	
+.jssora05l{
+    background-position:-10px -40px
+}
+.jssora05r{
+    background-position:-70px -40px
+}
+.jssora05l:hover{
+    background-position:-130px -40px
+}
+.jssora05r:hover{
+    background-position:-190px -40px
+}
+.jssora05l.jssora05ldn{
+    background-position:-250px -40px
+}
+.jssora05r.jssora05rdn{
+    background-position:-310px -40px
+}
+.jssora05l.jssora05lds{
+    background-position:-10px -40px;
+    opacity:.3;
+    pointer-events:none
+}
+.jssora05r.jssora05rds{
+    background-position:-70px -40px;
+    opacity:.3;
+    pointer-events:none
+}
+
+
+/* Finish the slides*/
+
+#footer-inner { margin-bottom:-10px; text-align:center;font-size:18px; padding:12px; width:980px; float:left; width: 93.75%; padding: 3.125%;}
+A:visited {text-decoration:none;color:#faebd7;} 
+A:hover {text-decoration:underline;color:#ff5062;} 
