@@ -23,10 +23,37 @@ body {
     overflow-x: hidden;
 }
 
+/* Menu */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+  li {
+    display: inline-block;
+    width: 50%;
+	color:pink;
+  }
+  
+  li a {
+	  color: green;
+  }
+
+@media screen and (min-width: 20em) {
+
+  li {
+    width: 33.33333%;
+  }
+
+}
+
+
 /* Here begins the icons media*/
 
 .section {
-    margin:50px 0px 0px 900px;
+    margin:-300px 0px 0px 900px;
 }
 
 .section img {
@@ -87,7 +114,7 @@ body {
         
         @media (max-width:662px) {
             .section {
-                margin:-150px 0px 0px 400px;
+                margin:-150px 0px 0px 300px;
 				margin-top: -275px;
             }
             .section img {
@@ -120,7 +147,8 @@ body {
 /* Starts the Slide */
 
 #slideshow{
-	margin:250px 0px 0px 0px;
+	     margin:200px 0px 0px 0px;
+
 	
 }
 
@@ -128,7 +156,7 @@ body {
     display:iblock;
     position:absolute;
     width:40px;
-    height:40px;
+    height:50px;
     cursor:pointer;
     background:url('img/a17.png') no-repeat;
     overflow:hidden;
@@ -166,6 +194,6 @@ body {
 
 /* Finish the slides*/
 
-#footer-inner { margin-bottom:-10px; text-align:center;font-size:18px; padding:12px; width:980px; float:left; width: 93.75%; padding: 3.125%;}
+#footer-inner { margin:auto; text-align:center;font-size:18px; padding:12px; width:980px; float:left; width: 93.75%; padding: 3.125%;}
 A:visited {text-decoration:none;color:#faebd7;} 
 A:hover {text-decoration:underline;color:#ff5062;} 
